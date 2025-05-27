@@ -138,7 +138,7 @@
 - [x] 어드민 예약 대기 목록 조회 기능
   - request
     ```
-    GET /reservations/waitings HTTP/1.1
+    GET /admin/reservations/waitings HTTP/1.1
     ```
   - response
     ```
@@ -165,7 +165,7 @@
 - [x] 어드민 예약 대기 취소 기능
   - request
     ```
-    DELETE /reservations/waitings/1 HTTP/1.1
+    DELETE /admin/reservations/waitings/1 HTTP/1.1
     ```
   - response
     ```
